@@ -1,23 +1,32 @@
+import Logo from "../../images/logo.png"
+
 export const Contacts = ()=> {
     return(
+        <div className="contacts_wraper">
         <div className="container">
-        <div>
-        <p>Контакты</p>
+     
+        <p className="contacts">Контакты</p>
+       
+        <div className="contacts_info">
+       Центральный офис: г. Москва, ул,Гоголя 13, 1й этаж
         </div>
-        <div>
-        <p>Центральный офис: г. Москва, ул,Гоголя 13, 1й этаж</p>
+        <div className="contacts_info">
+        Представительство в Киеве: г. Киев, ул. Є. Коновальця, 103 оф. 410
         </div>
-        <div>
-        <p>Представительство в Киеве: г. Киев, ул. Є. Коновальця, 103 оф. 410</p>
+        <div className="contacts_info">
+        Представительства в Харькове, Одессе, Ростове, Сочи, Белгороде
         </div>
-        <div>
-        <p>Представительства в Харькове, Одессе, Ростове, Сочи, Белгороде</p>
+        <div className="contacts_info">
+        +7 987 654-54-56 +38 067 504-32-57
         </div>
-        <div>
-        <p>+7 987 654-54-56 +38 067 504-32-57</p>
+        <div className="contacts_info">
+       Ежедневно 08:00 - 20:00
         </div>
-        <div>
-        <p>Ежедневно 08:00 - 20:00</p>
+        <div className="contacts_footer">
+             <p className="contacts_text">политика безопасности</p>
+             <img className="logo_footer" src={Logo}></img>
+        </div>
+
         </div>
         </div>
     )

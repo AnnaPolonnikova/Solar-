@@ -1,5 +1,10 @@
+
+
 export const Main = () => {
+    
+  
     return(
+        <>
         <div className="main">
         <div className="container">
            
@@ -9,5 +14,7 @@ export const Main = () => {
             <button className="btn">Записаться на консультацию</button>
             </div>
         </div>
+
+        </>
     )
 }

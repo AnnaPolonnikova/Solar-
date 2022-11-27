@@ -5,8 +5,11 @@ import {Layout} from './Modules/Layout/Layout'
 import {GreenTariff} from './Modules/GreenTariff/GreenTariff'
 import { FiveSteps } from "./Modules/FiveSteps/FiveSteps";
 import { Contacts } from "./Modules/Contacts/Contacts";
+
 function App() {
+  
   return (
+   
     <div className="App">
     
     <Routes>
