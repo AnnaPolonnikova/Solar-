@@ -1,75 +1,42 @@
-@media(max-width: 1024px){
-    .container{
-        
-        max-width: 1024px;
-        
-    }
+@media(min-width: 769px){
+.burger_button {
+    display: none;
+}
+.menu_mobile {
+    display: none;
+}
+}
+
+@media(max-width: 768px){
     .logo{
-        margin-left: 20px;
+		padding: 8px;
+     
     }
-    .btn{
-        margin-left: 330px;
-    }
-    .servises_content{
-        width: 500px ;
-       padding-left: 20px;
-        padding-right: 40px;
-    }
-    .servises_img{
-        width: 300px;
-        height: 370px;
-    }
+    
     .green_blocks{
         display: block;
-        padding-left: 20px;
+        padding: 0 20px;
+		  margin: 0;
     }
     .green_text{
         width: 500px;
         height: 114px;
         font-size: 18px;
     }
-    .info_text{
-        
-       padding-left: 200px;
-    }
+    
     .five_steps_1{
-       padding-left: 20px;
-        padding-right:60px ;
+       margin-left: 10px;
+       margin-right: 10px ;
     }
     .contacts_info{
-        padding-left: 20px;
+		padding: 0 50px;
+		padding-top: 60px;
     }
-    .contacts_footer{
-        padding-left: 20px;
-    }
-    
-}
-@media(max-width: 768px){
-   
-        .container{
-            width: 700px;
-        }
-        .header_wraper{
-            display: flex;
-           flex-direction: column;
-           margin: 0;
-           padding-top: 75px;
-        margin-left: 80px;
-           
-        }
-        .mobile_btn{
-            display: block;
-            cursor: pointer;
-            margin-top: 20px;
-            margin-left: 40px;
-        }
-        .menu{
-       display: flex;
-        flex-direction:column;
+    .menu_desktop {
         padding-top: 30px;
-        justify-content: center;
+		  padding-left: 20px;
         position: fixed;
-        left: -100%;
+        left: 0;
         top: 0;
         bottom: 0;
         z-index: 10;
@@ -83,8 +50,177 @@
         .active{
             left: 0;
         }
-        .btn{
-            margin-left: 180px;
-        }
+}
+@media(max-width: 768px){
         
+        .burger_button {
+			position: fixed;
+			left: 20px;
+				z-index: 500;
+        }
+		  .header_container{
+			background-color: #868585;
+		}
+        .header_wraper{
+            display: flex;
+           flex-direction: column;
+           margin: 0;
+          
+
+        }
+        .mobile_btn{
+            display: block;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+        .menu_mobile{
+       display: flex;
+        flex-direction:column;
+        padding-top: 30px;
+        justify-content: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 10;
+        height: 100%;
+        background-color: rgba(31, 29, 29, 1);
+        transition: right 1s;
+        }
+        .link{
+            color: white;
+        }
+        .active{
+            left: 0;
+        }
+        .btn{
+            cursor: pointer;
+        }
+        .menu_desktop {
+            display: none;
+        }
+        .info_text{
+            font-size: 30px;
+           
+         }
+			.green_block_1{
+				display:block;
+				padding-bottom: 30px;
+		  }
+        .number{
+            padding-top: 10px;
+        }
+        .five_title{
+            padding-top: 10px;
+        }
+        .five_text{
+
+            padding-top: 10px;
+        }
+        .five_steps_2{
+            padding-top: 100px;
+        }
+        .contacts_text{
+            font-size: 14px;
+            color: #ffffff;
+        }
+}
+@media(max-width:425px) {
+    .container{
+    }
+   
+    .main_text{
+        font-size: 18px;
+    }
+    .main_title{
+        font-size: 24px;
+        margin-top: 50px;
+    }
+    .main_subtitle{
+
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .btn{
+			margin: 0 30px;
+        margin-top: 50px;
+		  padding: 7px 15px;
+        font-size: 15px;
+    }
+	 .input{
+		max-width: 230px;
+		font-size: 22px;
+	 }
+    .servises{
+        display: block;
+        width: 100%;
+    }
+	 .five_steps{
+		display: block;
+      width: 100%;
+	 }
+	 .five_steps_1{
+		padding-left: 0;
+		padding-right: 0;
+  }
+	 .five_steps_2{
+		padding-right: 0;
+  }
+    .servises_content{
+        
+        padding-right: 20px;
+    	padding-left: 20px;
+    }
+    .servises_image{
+        padding-top: 100px;
+        padding-left: 0px;
+		  padding-right: 0px;
+		  margin-bottom: 20px;
+        height: 100%;
+    }
+    .servises_text{
+
+        margin-top: 20px;
+    }
+    .green_blocks{
+        display: block;
+    }
+     .green_block_1{
+        display:block;
+        padding-bottom: 30px;
+    }
+    .green_text{
+         width: 230px;
+    }
+    .image_green_2{
+        width: 100%;
+    }
+    .info_text{
+        font-size: 25px;
+        color: #ffffff;
+        line-height: 57.2px;
+    }
+    .five_steps{
+        flex-direction: column;
+    }
+    .five_steps_1{
+        padding-top: 50px;
+    }
+    .five_img{
+        width: 100%;
+		  margin-bottom: 20px;
+    }
+    .contacts_info{
+        font-size: 14px;
+        color: #ffffff;
+		  padding: 0 30px;
+        padding-top: 50px;
+    }
+    
+    .modal_button{
+		font-size: 14px;
+    }
+
+
 }

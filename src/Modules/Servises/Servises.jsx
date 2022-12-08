@@ -16,7 +16,7 @@ export const Servises = () => {
         <p className="servises_subtitle">Всю бюрократическую процедуру по подключению Вашей электростанции к «Зеленому тарифу», мы берем на себя, в том числе по увеличению договорной мощности вашего дома. При заказе солнечной электростанции эта услуга абсолютно бесплатна.</p>
         </div> 
         <div className="servises_image">
-            <img  className="servises_img" src={servises}></img>
+            <img  className="servises_img" src={servises} alt={'services'}></img>
         </div>
         </div>
         </div>

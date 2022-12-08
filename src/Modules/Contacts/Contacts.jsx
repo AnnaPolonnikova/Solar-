@@ -1,12 +1,12 @@
-import Logo from "../../images/logo.png"
+// import Logo from "../../images/logo.png"
 
 export const Contacts = ()=> {
     return(
         <div className="contacts_wraper">
         <div className="container">
-     
+
         <p className="contacts">Контакты</p>
-       
+
         <div className="contacts_info">
        Центральный офис: г. Москва, ул,Гоголя 13, 1й этаж
         </div>
@@ -22,10 +22,10 @@ export const Contacts = ()=> {
         <div className="contacts_info">
        Ежедневно 08:00 - 20:00
         </div>
-        <div className="contacts_footer">
+        {/* <footer className="contacts_footer">
              <p className="contacts_text">политика безопасности</p>
              <img className="logo_footer" src={Logo}></img>
-        </div>
+        </footer> */}
 
         </div>
         </div>

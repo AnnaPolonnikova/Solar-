@@ -28,7 +28,7 @@ export const FiveSteps= () => {
         <p className="five_text">После подключения к «Зеленому тарифу», вы получаете доход за каждый киловатт, выработанный на Вашей солнечной электростанции по зафиксированному тарифу на момент подключения.</p>
         </div>
         <div className="five_steps_2">
-        <img src={fivesteps}/>
+        <img className="five_img" src={fivesteps}/>
         </div>
         </div>
         </div>

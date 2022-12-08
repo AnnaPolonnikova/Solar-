@@ -5,13 +5,14 @@ import {Layout} from './Modules/Layout/Layout'
 import {GreenTariff} from './Modules/GreenTariff/GreenTariff'
 import { FiveSteps } from "./Modules/FiveSteps/FiveSteps";
 import { Contacts } from "./Modules/Contacts/Contacts";
+import {Weather} from "./Modules/Weather/Weather"
 
 function App() {
-  
+
   return (
-   
-    <div className="App">
-    
+
+    <main className="App">
+
     <Routes>
       <Route path="/" element= {<Layout/>}>
       <Route index  element={<Main/>}></Route>
@@ -19,9 +20,11 @@ function App() {
       <Route path="greenTariff"  element={<GreenTariff/>}></Route>
       <Route path="fiveSteps"  element={<FiveSteps/>}></Route>
       <Route path="contacts"  element={<Contacts/>}></Route>
+      <Route path="weather"  element={<Weather/>}></Route>
       </Route>
-      </Routes> 
-    </div>
+      </Routes>
+
+    </main>
   );
 }
 
